@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+.slick-dots button {
+    display: block;
+    width: .5rem;
+    height: .5rem;
+    padding: 2px;
+    border: none;
+    border-radius: 100%;
+    background-color: white;
+    /* text-indent: -9999px; */
+  } */
+   .slick-dots li.slick-active button:before{
+    color: rgb(245, 239, 239)
+  }
+  .slick-dots li.slick-active button {
+    background-color: rgb(15, 237, 185);
+  }
+  .slick-dots li button {
+    font-size: 0px;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+} 
+
+.slick-next {
+  /* right: 1px; */
+  /* background: rgb(243, 243, 243) !important; */
+  border-radius: 7px;
+}
+
+.slick-prev {
+  /* left: 1px; */
+  z-index: 2;
+  /* background: rgb(243, 243, 243) !important; */
+  border-radius: 7px;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgba(23, 206, 209, 0.923);
+}
+.slick-prev, .slick-next {
+  font-size: 0;
+  line-height: 2;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  /* color: lightpink; */
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.top-2 {
+  top: 0.5rem;
+}
+.right-2 {
+  right: 0.5rem;
+}
+.absolute {
+  position: absolute;
+}
