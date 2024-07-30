@@ -91,7 +91,7 @@ function Login() {
             <div className="flex justify-around mt-8 items-center">
               <button
                 className="px-5 rounded-md
-           py-2 bg-pink-500  hover:bg-pink-700 duration-200"
+           py-2 bg-red-500  hover:bg-pink-700 duration-200"
               >
                 Login
               </button>
